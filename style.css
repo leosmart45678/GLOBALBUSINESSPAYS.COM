@@ -1,0 +1,126 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #f3f3f3, #e0e0e0);
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 760px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.logo-centered {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-centered img {
+  height: 70px;
+}
+
+h1 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.card-preview {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-preview img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  border: 3px solid #d4af37;
+}
+
+.instructions {
+  margin-top: 30px;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.address-box {
+  background: #fffbe5;
+  border-left: 5px solid #d4af37;
+  padding: 15px;
+  font-family: monospace;
+  word-break: break-word;
+  font-size: 0.95rem;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+button {
+  background: #d4af37;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #b9962c;
+}
+
+.qr-code {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.qr-code img {
+  width: 180px;
+  height: 180px;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+}
+
+.qr-code p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.note {
+  background: #f4f4f4;
+  color: #222;
+  padding: 20px;
+  border-left: 5px solid #2e8b57;
+  border-radius: 12px;
+  margin-top: 30px;
+  font-size: 0.95rem;
+}
+
+.note a {
+  color: #2e8b57;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.note ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.note ul li {
+  margin-bottom: 6px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 40px;
+  color: #666;
+}
